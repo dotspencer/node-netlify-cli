@@ -8,11 +8,11 @@ Using this image prevents you from adding `netlify-cli` to your project dependen
 
     docker build -t dotspencer/node-netlify:latest .
 
-**Push**
+**Push** (after logging in via docker desktop)
 
     docker push dotspencer/node-netlify-cli:latest
 
-**Gitlab CI Usage Example** (React SPA)
+**Gitlab CI Usage Example** (react app)
 
 ```
 deploy:
